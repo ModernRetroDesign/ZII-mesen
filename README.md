@@ -21,6 +21,7 @@ Please do not use any other fork as it must be mkwong98's version otherwise it w
 # Installation instructions
 
 Extract ZII folder from zip into the Mesen HdPacks folder
+
 Extract game from archive and rename to ZII
 
 A 200% overclock is recommended but not necessary. Set 'Additional scanlines before NMI' to 262. This option is located in the Emulation settings under Overclock.
