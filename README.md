@@ -2,7 +2,7 @@
 
 Coding: Giric
 
-Main Art: HaddianKey
+Main Art: HaddianKey, Jojamart
 
 Music: Niskala
 
@@ -12,11 +12,11 @@ Additional work by: Evan.F, Aclectico, Szadi art., Max Deacon VR, Pepeztyle, Cha
 
 Discord: https://discord.gg/feFCZMUQQm
 
-# Requres Mesen 0.9.9-221126 or latest!
+# Requres latest Mesen 2 development build!
 
-https://github.com/mkwong98/Mesen/releases
+https://github.com/SourMesen/Mesen2
 
-Please do not use any other fork as it must be mkwong98's version otherwise it will not work correctly
+Please be sure to use the latest development build and not release version as of now otherwise it will not work correctly!
 
 # Installation instructions
 
