@@ -35316,7 +35316,38 @@
 <addition>117B,FF18362A,-8,0,FF,FF00017B
 <addition>117B,FF18362A,8,0,FF,FF00117B
 
-#RaftNeedsExpansion
+
+
+#ExpandedExplanation
+#Palette FF Stays the same - Last 3 are tile codes
+#if first digit is 1 that means left/right and up/down
+#if all digits are 0 that means left/right
+#if second digit is 1 that means up/down
+#if first and second are 1 that means left 1 and down 2 ????
+#if third digit is 1 that means right (reserverd singular sprites)
+#,0,-8   up          010
+#,0,8    down        010
+#,-8,0   left        000
+#,-8,-8  left/up     100
+#,-8,8   left/down   100
+#,8,0    right       000
+#,8,-8   right/up    100
+#,8,8    right/down  100
+
+#RaftExpansion
+<addition>1144,FF18362A,-8,0,FF,FF001144
+<addition>1144,FF18362A,-8,-8,FF,FF101144
+<addition>1144,FF18362A,0,-8,FF,FF011144
+<addition>1145,FF18362A,-8,0,FF,FF001145
+<addition>1145,FF18362A,-8,8,FF,FF101145
+<addition>1145,FF18362A,0,8,FF,FF011145
+<addition>1146,FF18362A,8,0,FF,FF001146
+<addition>1146,FF18362A,8,-8,FF,FF101146
+<addition>1146,FF18362A,0,-8,FF,FF011146
+<addition>1147,FF18362A,8,0,FF,FF001147
+<addition>1147,FF18362A,8,8,FF,FF101147
+<addition>1147,FF18362A,0,8,FF,FF011147
+
 
 #FacingLeftFrame2
 [!hmirror]<tile>19,FF,FF100174,0,0,1,N
@@ -35342,12 +35373,45 @@
 [!hmirror]<tile>19,1176,FF18362A,32,8,1,N
 [!hmirror]<tile>19,1177,FF18362A,32,16,1,N
 
+#RaftingLeftFrame1
+[!hmirror]<tile>19,1144,FF18362A,88,8,1,N
+[!hmirror]<tile>19,1145,FF18362A,88,16,1,N
+[!hmirror]<tile>19,1146,FF18362A,96,8,1,N
+[!hmirror]<tile>19,1147,FF18362A,96,16,1,N
 
-#RaftingLeft
-[!hmirror]<tile>19,1144,FF18362A,0,0,1,N
-[!hmirror]<tile>19,1145,FF18362A,0,0,1,N
-[!hmirror]<tile>19,1146,FF18362A,0,0,1,N
-[!hmirror]<tile>19,1147,FF18362A,0,0,1,N
+#RaftLeftExpandedFrame1
+[!hmirror]<tile>19,FF,FF001144,80,8,1,N
+[!hmirror]<tile>19,FF,FF101144,80,0,1,N
+[!hmirror]<tile>19,FF,FF011144,88,0,1,N
+[!hmirror]<tile>19,FF,FF001145,80,16,1,N
+[!hmirror]<tile>19,FF,FF101145,80,24,1,N
+[!hmirror]<tile>19,FF,FF011145,88,24,1,N
+[!hmirror]<tile>19,FF,FF001146,104,8,1,N
+[!hmirror]<tile>19,FF,FF101146,104,0,1,N
+[!hmirror]<tile>19,FF,FF011146,96,0,1,N
+[!hmirror]<tile>19,FF,FF001147,104,16,1,N
+[!hmirror]<tile>19,FF,FF101147,104,24,1,N
+[!hmirror]<tile>19,FF,FF011147,96,24,1,N
+
+#RaftingLeftFrame2
+#[!hmirror]<tile>19,1144,FF18362A,120,8,1,N
+#[!hmirror]<tile>19,1145,FF18362A,120,16,1,N
+#[!hmirror]<tile>19,1146,FF18362A,128,8,1,N
+#[!hmirror]<tile>19,1147,FF18362A,128,16,1,N
+
+#RaftLeftExpandedFrame2
+#[!hmirror]<tile>19,FF,FF001144,112,8,1,N
+#[!hmirror]<tile>19,FF,FF101144,112,0,1,N
+#[!hmirror]<tile>19,FF,FF011144,120,0,1,N
+#[!hmirror]<tile>19,FF,FF001145,112,16,1,N
+#[!hmirror]<tile>19,FF,FF101145,112,24,1,N
+#[!hmirror]<tile>19,FF,FF011145,120,24,1,N
+#[!hmirror]<tile>19,FF,FF001146,136,8,1,N
+#[!hmirror]<tile>19,FF,FF101146,136,0,1,N
+#[!hmirror]<tile>19,FF,FF011146,128,0,1,N
+#[!hmirror]<tile>19,FF,FF001147,136,16,1,N
+#[!hmirror]<tile>19,FF,FF101147,136,24,1,N
+#[!hmirror]<tile>19,FF,FF011147,128,24,1,N
 
 #FacingRightFrame2
 [hmirror]<tile>19,FF,FF100174,0,24,1,N
@@ -35373,11 +35437,45 @@
 [hmirror]<tile>19,1176,FF18362A,32,32,1,N
 [hmirror]<tile>19,1177,FF18362A,32,40,1,N
 
-#RaftingRight
-[hmirror]<tile>19,1144,FF18362A,0,0,1,N
-[hmirror]<tile>19,1145,FF18362A,0,0,1,N
-[hmirror]<tile>19,1146,FF18362A,0,0,1,N
-[hmirror]<tile>19,1147,FF18362A,0,0,1,N
+#RaftingRightFrame1
+[hmirror]<tile>19,1144,FF18362A,88,8,1,N
+[hmirror]<tile>19,1145,FF18362A,88,16,1,N
+[hmirror]<tile>19,1146,FF18362A,96,8,1,N
+[hmirror]<tile>19,1147,FF18362A,96,16,1,N
+
+#RaftRightExpandedFrame1
+[hmirror]<tile>19,FF,FF001144,80,40,1,N
+[hmirror]<tile>19,FF,FF101144,80,32,1,N
+[hmirror]<tile>19,FF,FF011144,88,32,1,N
+[hmirror]<tile>19,FF,FF001145,80,48,1,N
+[hmirror]<tile>19,FF,FF101145,80,56,1,N
+[hmirror]<tile>19,FF,FF011145,88,56,1,N
+[hmirror]<tile>19,FF,FF001146,104,40,1,N
+[hmirror]<tile>19,FF,FF101146,104,32,1,N
+[hmirror]<tile>19,FF,FF011146,96,32,1,N
+[hmirror]<tile>19,FF,FF001147,104,48,1,N
+[hmirror]<tile>19,FF,FF101147,104,56,1,N
+[hmirror]<tile>19,FF,FF011147,96,56,1,N
+
+#RaftingRightFrame2
+#[hmirror]<tile>19,1144,FF18362A,120,8,1,N
+#[hmirror]<tile>19,1145,FF18362A,120,16,1,N
+#[hmirror]<tile>19,1146,FF18362A,128,8,1,N
+#[hmirror]<tile>19,1147,FF18362A,128,16,1,N
+
+#RaftRightExpandedFrame2
+#[hmirror]<tile>19,FF,FF001144,112,40,1,N
+#[hmirror]<tile>19,FF,FF101144,112,32,1,N
+#[hmirror]<tile>19,FF,FF011144,120,32,1,N
+#[hmirror]<tile>19,FF,FF001145,112,48,1,N
+#[hmirror]<tile>19,FF,FF101145,112,56,1,N
+#[hmirror]<tile>19,FF,FF011145,120,56,1,N
+#[hmirror]<tile>19,FF,FF001146,136,40,1,N
+#[hmirror]<tile>19,FF,FF101146,136,32,1,N
+#[hmirror]<tile>19,FF,FF011146,128,32,1,N
+#[hmirror]<tile>19,FF,FF001147,136,48,1,N
+#[hmirror]<tile>19,FF,FF101147,136,56,1,N
+#[hmirror]<tile>19,FF,FF011147,128,56,1,N
 
 #FacingUpFrame2
 [!hmirror]<tile>19,FF,FF100178,0,48,1,N
