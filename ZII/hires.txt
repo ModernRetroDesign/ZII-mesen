@@ -35976,15 +35976,20 @@
 <addition>213,FF18362A,8,0,FF,FF000213,Y
 <addition>213,FF18362A,8,8,FF,FF100213,Y
 
+<condition>HeroWalkFrame3ExpandA,spriteNearby,8,24,213,FF18362A
+<condition>HeroWalkFrame3ExpandB,spriteNearby,8,16,213,FF18362A
+<condition>HeroWalkFrame3ExpandC,spriteNearby,0,24,213,FF18362A
+<condition>HeroWalkFrame3ExpandD,spriteNearby,0,16,213,FF18362A
+
 #(HeroWalkFrame conditions have no effect???)
-#[!hmirror&!PlayerInAir&HeroWalkFrame3a]<tile>7,FF,FF100200,64,0,1,N
-#[!hmirror&!PlayerInAir&HeroWalkFrame3a]<tile>7,FF,FF000200,64,8,1,N
-#[!hmirror&!PlayerInAir&HeroWalkFrame3a]<tile>7,FF,FF010200,72,0,1,N
-#[!hmirror&!PlayerInAir&HeroWalkFrame3b]<tile>7,FF,FF000201,64,16,1,N
-#[!hmirror&!PlayerInAir&HeroWalkFrame3c]<tile>7,FF,FF010202,80,0,1,N
-#[!hmirror&!PlayerInAir&HeroWalkFrame3c]<tile>7,FF,FF100202,88,0,1,N
-#[!hmirror&!PlayerInAir&HeroWalkFrame3c]<tile>7,FF,FF000202,88,8,1,N
-#[!hmirror&!PlayerInAir&HeroWalkFrame3d]<tile>7,FF,FF000203,88,16,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandA]<tile>7,FF,FF100200,64,0,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandA]<tile>7,FF,FF000200,64,8,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandA]<tile>7,FF,FF010200,72,0,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandB]<tile>7,FF,FF000201,64,16,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandC]<tile>7,FF,FF010202,80,0,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandC]<tile>7,FF,FF100202,88,0,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandC]<tile>7,FF,FF000202,88,8,1,N
+[!hmirror&!PlayerInAir&!HeroWalkFrame3ExpandD]<tile>7,FF,FF000203,88,16,1,N
 [!hmirror&!PlayerInAir]<tile>7,FF,FF000210,64,24,1,N
 [!hmirror&!PlayerInAir]<tile>7,FF,FF000211,64,32,1,N
 [!hmirror&!PlayerInAir]<tile>7,FF,FF100211,64,40,1,N
@@ -39340,6 +39345,14 @@
 <condition>OldManTalkFrame2d,spriteNearby,0,-16,6D3,FF162730
 
 #ExpandedSprites
+<condition>OldManTalkFrame2Expanded03,spriteNearby,8,-16,6D0,FF162730
+<condition>OldManTalkFrame2Expanded04,spriteNearby,8,-24,6D0,FF162730
+<condition>OldManTalkFrame2Expanded05,spriteNearby,8,-32,6D0,FF162730
+<condition>OldManTalkFrame2Expanded07,spriteNearby,0,-32,6D0,FF162730
+<condition>OldManTalkFrame2Expanded09,spriteNearby,-8,-32,6D0,FF162730
+<condition>OldManTalkFrame2Expanded13,spriteNearby,-16,-16,6D0,FF162730
+<condition>OldManTalkFrame2Expanded14,spriteNearby,-16,-24,6D0,FF162730
+<condition>OldManTalkFrame2Expanded15,spriteNearby,-16,-32,6D0,FF162730
 <fallback>674,674
 <fallback>676,676
 <fallback>6CF,6CF
@@ -39431,19 +39444,19 @@
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF100674,32,0,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000674,32,8,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000675,32,16,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2a]<tile>10,FF,FF0006D4,32,24,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2b]<tile>10,FF,FF0006D5,32,32,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2b]<tile>10,FF,FF1006D5,32,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded03]<tile>10,FF,FF0006D4,32,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded04]<tile>10,FF,FF0006D5,32,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded05]<tile>10,FF,FF1006D5,32,40,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF010674,40,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2b]<tile>10,FF,FF0106D5,40,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded07]<tile>10,FF,FF0106D5,40,40,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF010676,48,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2d]<tile>10,FF,FF0106D7,48,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded09]<tile>10,FF,FF0106D7,48,40,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF100676,56,0,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000676,56,8,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000677,56,16,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2c]<tile>10,FF,FF0006D6,56,24,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2d]<tile>10,FF,FF0006D7,56,32,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2d]<tile>10,FF,FF1006D7,56,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded13]<tile>10,FF,FF0006D6,56,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded14]<tile>10,FF,FF0006D7,56,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2Expanded15]<tile>10,FF,FF1006D7,56,40,1,N
 
 #Frame2
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,6D0,FF162730,72,8,1,N
@@ -39454,23 +39467,23 @@
 [!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,6D5,FF162730,72,32,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2c]<tile>10,6D6,FF162730,80,24,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,6D7,FF162730,80,32,1,N
-#Frame2ExpandedSprites (Bottom doesn't work?)
+#Frame2ExpandedSprites
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF1006D0,64,0,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D0,64,8,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D1,64,16,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2a]<tile>10,FF,FF0006D4,64,24,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,FF,FF0006D5,64,32,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,FF,FF1006D5,64,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded03]<tile>10,FF,FF0006D4,64,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded04]<tile>10,FF,FF0006D5,64,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded05]<tile>10,FF,FF1006D5,64,40,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0106D0,72,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,FF,FF0106D5,72,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded07]<tile>10,FF,FF0106D5,72,40,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0106D2,80,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,FF,FF0106D7,80,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded09]<tile>10,FF,FF0106D7,80,40,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF1006D2,88,0,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D2,88,8,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D3,88,16,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2c]<tile>10,FF,FF0006D6,88,24,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,FF,FF0006D7,88,32,1,N
-[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,FF,FF1006D7,88,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded13]<tile>10,FF,FF0006D6,88,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded14]<tile>10,FF,FF0006D7,88,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2Expanded15]<tile>10,FF,FF1006D7,88,40,1,N
 
 
 #1
@@ -40708,14 +40721,17 @@
 <condition>PotHeadRedWomanWalkFrame1b,spriteNearby,0,16,6E1,FF0F1636
 <condition>PotHeadRedWomanWalkFrame1c,spriteNearby,-8,24,6E1,FF0F1636
 <condition>PotHeadRedWomanWalkFrame1d,spriteNearby,-8,16,6E1,FF0F1636
+
 <condition>PotHeadRedWomanWalkFrame1e,spriteNearby,8,-8,6DF,FF0F1636
 <condition>PotHeadRedWomanWalkFrame1f,spriteNearby,8,-16,6DF,FF0F1636
 <condition>PotHeadRedWomanWalkFrame1g,spriteNearby,0,-8,6DF,FF0F1636
 <condition>PotHeadRedWomanWalkFrame1h,spriteNearby,0,-16,6DF,FF0F1636
+
 <condition>PotHeadRedWomanWalkFrame2a,spriteNearby,0,24,6E5,FF0F1636
 <condition>PotHeadRedWomanWalkFrame2b,spriteNearby,0,16,6E5,FF0F1636
 <condition>PotHeadRedWomanWalkFrame2c,spriteNearby,-8,24,6E5,FF0F1636
 <condition>PotHeadRedWomanWalkFrame2d,spriteNearby,-8,16,6E5,FF0F1636
+
 <condition>PotHeadRedWomanWalkFrame2e,spriteNearby,8,-8,6DF,FF0F1636
 <condition>PotHeadRedWomanWalkFrame2f,spriteNearby,8,-16,6DF,FF0F1636
 <condition>PotHeadRedWomanWalkFrame2g,spriteNearby,0,-8,6DF,FF0F1636
@@ -40739,6 +40755,24 @@
 #,8,8    right/down  100
 
 #ExpandedSprites
+<condition>PotHeadRedWomanWalkFrame1Expanded03,spriteNearby,8,-16,6E1,FF0F1636
+<condition>PotHeadRedWomanWalkFrame1Expanded04,spriteNearby,8,-24,6E1,FF0F1636
+<condition>PotHeadRedWomanWalkFrame1Expanded05,spriteNearby,8,-32,6E1,FF0F1636
+<condition>PotHeadRedWomanWalkFrame1Expanded07,spriteNearby,0,-32,6E1,FF0F1636
+<condition>PotHeadRedWomanWalkFrame1Expanded09,spriteNearby,-8,-32,6DF,FF0F1636
+<condition>PotHeadRedWomanWalkFrame1Expanded13,spriteNearby,-16,-16,6DF,FF0F1636
+<condition>PotHeadRedWomanWalkFrame1Expanded14,spriteNearby,-16,-24,6DF,FF0F1636
+<condition>PotHeadRedWomanWalkFrame1Expanded15,spriteNearby,-16,-32,6DF,FF0F1636
+
+<condition>PotHeadRedWomanWalkFrame2Expanded03,spriteNearby,8,-16,6E5,FF0F1636
+<condition>PotHeadRedWomanWalkFrame2Expanded04,spriteNearby,8,-24,6E5,FF0F1636
+<condition>PotHeadRedWomanWalkFrame2Expanded05,spriteNearby,8,-32,6E5,FF0F1636
+<condition>PotHeadRedWomanWalkFrame2Expanded07,spriteNearby,0,-32,6E5,FF0F1636
+<condition>PotHeadRedWomanWalkFrame2Expanded09,spriteNearby,-8,-32,6DF,FF0F1636
+<condition>PotHeadRedWomanWalkFrame2Expanded13,spriteNearby,-16,-16,6DF,FF0F1636
+<condition>PotHeadRedWomanWalkFrame2Expanded14,spriteNearby,-16,-24,6DF,FF0F1636
+<condition>PotHeadRedWomanWalkFrame2Expanded15,spriteNearby,-16,-32,6DF,FF0F1636
+
 #<fallback>674,674
 <addition>6DC,FF0F1636,-8,-8,FF,FF1006DC,N
 <addition>6DC,FF0F1636,-8,0,FF,FF0006DC,N
@@ -40749,14 +40783,14 @@
 <addition>6DE,FF0F1636,0,-8,FF,FF0106DE,N
 <addition>6DF,FF0F1636,8,0,FF,FF0006DF,N
 
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1a]<tile>10,FF,FF1006DC,416,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1b]<tile>10,FF,FF0006DC,416,8,1,N
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1d]<tile>10,FF,FF0006DD,416,16,1,N
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1c]<tile>10,FF,FF0106DC,424,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1c]<tile>10,FF,FF0106DE,432,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1a]<tile>10,FF,FF1006DE,440,0,1,N
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1b]<tile>10,FF,FF0006DE,440,8,1,N
-[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1d]<tile>10,FF,FF0006DF,440,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded03]<tile>10,FF,FF1006DC,416,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded04]<tile>10,FF,FF0006DC,416,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded05]<tile>10,FF,FF0006DD,416,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded07]<tile>10,FF,FF0106DC,424,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded09]<tile>10,FF,FF0106DE,432,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded13]<tile>10,FF,FF1006DE,440,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded14]<tile>10,FF,FF0006DE,440,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&!PotHeadRedWomanWalkFrame1Expanded15]<tile>10,FF,FF0006DF,440,16,1,N
 
 
 #Town1West
