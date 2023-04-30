@@ -36188,6 +36188,68 @@
 #!!!StoppedHereNeedsWork!!!
 
 #Hurt
+<addition>214,FF18362A,-8,0,FF,FF000214,Y
+<addition>214,FF18362A,0,-8,FF,FF010214,Y
+<addition>214,FF18362A,-8,-8,FF,FF100214,Y
+<addition>215,FF18362A,-8,0,FF,FF000215,Y
+<addition>216,FF18362A,8,0,FF,FF000216,Y
+<addition>216,FF18362A,0,-8,FF,FF010216,Y
+<addition>216,FF18362A,8,-8,FF,FF100216,Y
+<addition>217,FF18362A,8,0,FF,FF000217,Y
+<addition>218,FF18362A,-8,0,FF,FF000218,Y
+<addition>219,FF18362A,-8,0,FF,FF000219,Y
+<addition>219,FF18362A,0,8,FF,FF010219,Y
+<addition>219,FF18362A,-8,8,FF,FF100219,Y
+<addition>21A,FF18362A,8,0,FF,FF00021A,Y
+<addition>21B,FF18362A,8,0,FF,FF00021B,Y
+<addition>21B,FF18362A,0,8,FF,FF01021B,Y
+<addition>21B,FF18362A,8,8,FF,FF10021B,Y
+
+#Hurt1
+[!hmirror&sppalette3]<tile>7,FF,FF100214,392,480,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF000214,392,488,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF000215,392,496,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF000218,392,504,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF000219,392,512,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF100219,392,520,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF010214,400,480,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF010219,400,520,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF010216,408,480,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF01021B,408,520,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF100216,416,480,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF000216,416,488,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF000217,416,496,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF00021A,416,504,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF00021B,416,512,1,N
+[!hmirror&sppalette3]<tile>7,FF,FF10021B,416,520,1,N
+
+#[!hmirror&sppalette2]<tile>7,214,FF0F1630,432,488,1,N
+#[!hmirror&sppalette2]<tile>7,215,FF0F1630,432,496,1,N
+#[!hmirror&sppalette2]<tile>7,216,FF0F1630,440,488,1,N
+#[!hmirror&sppalette2]<tile>7,217,FF0F1630,440,496,1,N
+#[!hmirror&sppalette2]<tile>7,218,FF0F1630,432,504,1,N
+#[!hmirror&sppalette2]<tile>7,219,FF0F1630,432,512,1,N
+#[!hmirror&sppalette2]<tile>7,21A,FF0F1630,440,504,1,N
+#[!hmirror&sppalette2]<tile>7,21B,FF0F1630,440,512,1,N
+
+#[!hmirror&sppalette1]<tile>7,214,FF162730,464,488,1,N
+#[!hmirror&sppalette1]<tile>7,215,FF162730,464,496,1,N
+#[!hmirror&sppalette1]<tile>7,216,FF162730,472,488,1,N
+#[!hmirror&sppalette1]<tile>7,217,FF162730,472,496,1,N
+#[!hmirror&sppalette1]<tile>7,218,FF162730,464,504,1,N
+#[!hmirror&sppalette1]<tile>7,219,FF162730,464,512,1,N
+#[!hmirror&sppalette1]<tile>7,21A,FF162730,472,504,1,N
+#[!hmirror&sppalette1]<tile>7,21B,FF162730,472,512,1,N
+
+#[!hmirror&sppalette0]<tile>7,214,FF18362A,496,488,1,N
+#[!hmirror&sppalette0]<tile>7,215,FF18362A,496,496,1,N
+#[!hmirror&sppalette0]<tile>7,216,FF18362A,504,488,1,N
+#[!hmirror&sppalette0]<tile>7,217,FF18362A,504,496,1,N
+#[!hmirror&sppalette0]<tile>7,218,FF18362A,496,504,1,N
+#[!hmirror&sppalette0]<tile>7,219,FF18362A,496,512,1,N
+#[!hmirror&sppalette0]<tile>7,21A,FF18362A,504,504,1,N
+#[!hmirror&sppalette0]<tile>7,21B,FF18362A,504,512,1,N
+
 
 #EndingPlaceTriangle
 
@@ -39277,6 +39339,56 @@
 <condition>OldManTalkFrame2c,spriteNearby,0,-8,6D3,FF162730
 <condition>OldManTalkFrame2d,spriteNearby,0,-16,6D3,FF162730
 
+#ExpandedSprites
+<fallback>674,674
+<fallback>676,676
+<fallback>6CF,6CF
+<fallback>6D0,6D0
+<fallback>6D2,6D2
+<fallback>6D7,6D7
+<addition>662,FF162730,-8,-8,FF,FF100662,Y
+<addition>662,FF162730,-8,0,FF,FF000662,Y
+<addition>662,FF162730,0,-8,FF,FF010662,Y
+<addition>663,FF162730,-8,0,FF,FF000663,Y
+<addition>664,FF162730,8,-8,FF,FF100664,Y
+<addition>664,FF162730,8,0,FF,FF000664,Y
+<addition>664,FF162730,0,-8,FF,FF010664,Y
+<addition>665,FF162730,8,0,FF,FF000665,Y
+<addition>6CC,FF162730,-8,0,FF,FF0006CC,Y
+<addition>6CD,FF162730,-8,8,FF,FF1006CD,Y
+<addition>6CD,FF162730,-8,0,FF,FF0006CD,Y
+<addition>6CD,FF162730,0,8,FF,FF0106CD,Y
+<addition>6CE,FF162730,8,0,FF,FF0006CE,Y
+<addition>6CF,FF162730,8,8,FF,FF1006CF,Y
+<addition>6CF,FF162730,8,0,FF,FF0006CF,Y
+<addition>6CF,FF162730,0,8,FF,FF0106CF,Y
+
+<addition>674,FF162730,-8,-8,FF,FF100674,Y
+<addition>674,FF162730,-8,0,FF,FF000674,Y
+<addition>675,FF162730,-8,0,FF,FF000675,Y
+<addition>6D4,FF162730,-8,0,FF,FF0006D4,Y
+<addition>6D5,FF162730,-8,0,FF,FF0006D5,Y
+<addition>6D5,FF162730,-8,8,FF,FF1006D5,Y
+<addition>674,FF162730,0,-8,FF,FF010674,Y
+<addition>6D5,FF162730,0,8,FF,FF0106D5,Y
+<addition>676,FF162730,0,-8,FF,FF010676,Y
+<addition>6D7,FF162730,0,8,FF,FF0106D7,Y
+<addition>676,FF162730,8,-8,FF,FF100676,Y
+<addition>676,FF162730,8,0,FF,FF000676,Y
+<addition>677,FF162730,8,0,FF,FF000677,Y
+<addition>6D6,FF162730,8,0,FF,FF0006D6,Y
+<addition>6D7,FF162730,8,0,FF,FF0006D7,Y
+<addition>6D7,FF162730,8,8,FF,FF1006D7,Y
+
+<addition>6D0,FF162730,-8,-8,FF,FF1006D0,Y
+<addition>6D0,FF162730,-8,0,FF,FF0006D0,Y
+<addition>6D0,FF162730,0,-8,FF,FF0106D0,Y
+<addition>6D1,FF162730,-8,0,FF,FF0006D1,Y
+<addition>6D2,FF162730,8,-8,FF,FF1006D2,Y
+<addition>6D2,FF162730,8,0,FF,FF0006D2,Y
+<addition>6D2,FF162730,0,-8,FF,FF0106D2,Y
+<addition>6D3,FF162730,8,0,FF,FF0006D3,Y
+
 #1
 #FacingLeft
 #CastFrame
@@ -39288,6 +39400,24 @@
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,6CD,FF162730,8,32,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,6CE,FF162730,16,24,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,6CF,FF162730,16,32,1,N
+#CastFrameExpandedSprites
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF100662,0,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000662,0,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000663,0,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006CC,0,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006CD,0,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF1006CD,0,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF010662,8,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0106CD,8,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF010664,16,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0106CF,16,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF100664,24,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000664,24,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000665,24,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006CE,24,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006CF,24,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF1006CF,24,40,1,N
+
 #Frame1
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,674,FF162730,40,8,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,675,FF162730,40,16,1,N
@@ -39297,6 +39427,24 @@
 [!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2b]<tile>10,6D5,FF162730,40,32,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2c]<tile>10,6D6,FF162730,48,24,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2d]<tile>10,6D7,FF162730,48,32,1,N
+#Frame1ExpandedSprites
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF100674,32,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000674,32,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000675,32,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2a]<tile>10,FF,FF0006D4,32,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2b]<tile>10,FF,FF0006D5,32,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2b]<tile>10,FF,FF1006D5,32,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF010674,40,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2b]<tile>10,FF,FF0106D5,40,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF010676,48,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2d]<tile>10,FF,FF0106D7,48,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF100676,56,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000676,56,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF000677,56,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2c]<tile>10,FF,FF0006D6,56,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2d]<tile>10,FF,FF0006D7,56,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&!OldManTalkFrame2d]<tile>10,FF,FF1006D7,56,40,1,N
+
 #Frame2
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,6D0,FF162730,72,8,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,6D1,FF162730,72,16,1,N
@@ -39306,6 +39454,24 @@
 [!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,6D5,FF162730,72,32,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2c]<tile>10,6D6,FF162730,80,24,1,N
 [!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,6D7,FF162730,80,32,1,N
+#Frame2ExpandedSprites (Bottom doesn't work?)
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF1006D0,64,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D0,64,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D1,64,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2a]<tile>10,FF,FF0006D4,64,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,FF,FF0006D5,64,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,FF,FF1006D5,64,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0106D0,72,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2b]<tile>10,FF,FF0106D5,72,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0106D2,80,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,FF,FF0106D7,80,40,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF1006D2,88,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D2,88,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24]<tile>10,FF,FF0006D3,88,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2c]<tile>10,FF,FF0006D6,88,24,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,FF,FF0006D7,88,32,1,N
+[!hmirror&HUD&LOCATION_06&MAP_24&OldManTalkFrame2d]<tile>10,FF,FF1006D7,88,40,1,N
+
 
 #1
 #FacingRight
@@ -40554,6 +40720,44 @@
 <condition>PotHeadRedWomanWalkFrame2f,spriteNearby,8,-16,6DF,FF0F1636
 <condition>PotHeadRedWomanWalkFrame2g,spriteNearby,0,-8,6DF,FF0F1636
 <condition>PotHeadRedWomanWalkFrame2h,spriteNearby,0,-16,6DF,FF0F1636
+
+
+#ExpandedExplanation
+#Palette FF Stays the same - Last 3 are tile codes
+#if first digit is 1 that means left/right and up/down
+#if all digits are 0 that means left/right
+#if second digit is 1 that means up/down
+#if first and second are 1 that means left 1 and down 2 ????
+#if third digit is 1 that means right (reserverd singular sprites)
+#,0,-8   up          010
+#,0,8    down        010
+#,-8,0   left        000
+#,-8,-8  left/up     100
+#,-8,8   left/down   100
+#,8,0    right       000
+#,8,-8   right/up    100
+#,8,8    right/down  100
+
+#ExpandedSprites
+#<fallback>674,674
+<addition>6DC,FF0F1636,-8,-8,FF,FF1006DC,N
+<addition>6DC,FF0F1636,-8,0,FF,FF0006DC,N
+<addition>6DC,FF0F1636,0,-8,FF,FF0106DC,N
+<addition>6DD,FF0F1636,-8,0,FF,FF0006DD,N
+<addition>6DE,FF0F1636,8,-8,FF,FF1006DE,N
+<addition>6DE,FF0F1636,8,0,FF,FF0006DE,N
+<addition>6DE,FF0F1636,0,-8,FF,FF0106DE,N
+<addition>6DF,FF0F1636,8,0,FF,FF0006DF,N
+
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1a]<tile>10,FF,FF1006DC,416,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1b]<tile>10,FF,FF0006DC,416,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1d]<tile>10,FF,FF0006DD,416,16,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1c]<tile>10,FF,FF0106DC,424,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1c]<tile>10,FF,FF0106DE,432,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1a]<tile>10,FF,FF1006DE,440,0,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1b]<tile>10,FF,FF0006DE,440,8,1,N
+[!hmirror&HUD&LOCATION_06&MAP_01&PotHeadRedWomanWalkFrame1d]<tile>10,FF,FF0006DF,440,16,1,N
+
 
 #Town1West
 #FacingLeft
