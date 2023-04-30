@@ -2,7 +2,7 @@
 
 Coding: Giric
 
-Main Art: HaddianKey, Jojamart
+Main Art: HaddianKey, Jojamart, Cristata
 
 Music: Niskala
 
