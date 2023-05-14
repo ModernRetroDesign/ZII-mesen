@@ -22,6 +22,7 @@
 <img>NPC\boss_GiantBird.png
 <img>NPC\boss_GiantBird-Fireball.png
 <img>Overworld\Sprites.png
+<img>NPC\friendly_Pixie.png
 
 <options>disableSpriteLimit
 <options>disableOriginalTiles
@@ -2500,10 +2501,14 @@
 <tile>4,D1,FF18362A,0,0,1,N
 
 #HideFairy
-<tile>4,68,FF162730,0,0,1,N
-<tile>4,69,FF162730,0,0,1,N
-<tile>4,6A,FF162730,0,0,1,N
-<tile>4,6B,FF162730,0,0,1,N
+[FileSelect]<tile>4,68,FF162730,0,0,1,N
+[FileSelect]<tile>4,69,FF162730,0,0,1,N
+[FileSelect]<tile>4,6A,FF162730,0,0,1,N
+[FileSelect]<tile>4,6B,FF162730,0,0,1,N
+[NameRegistration]<tile>4,68,FF162730,0,0,1,N
+[NameRegistration]<tile>4,69,FF162730,0,0,1,N
+[NameRegistration]<tile>4,6A,FF162730,0,0,1,N
+[NameRegistration]<tile>4,6B,FF162730,0,0,1,N
 [FileSelect&!NameRegistration&TitleCursorPos0&12fpsAnimFrame00]<background>TitleMenus\FairyA.png,1,0,0,38,220,176
 [FileSelect&!NameRegistration&TitleCursorPos0&12fpsAnimFrame01]<background>TitleMenus\FairyB.png,1,0,0,38,220,176
 [FileSelect&!NameRegistration&TitleCursorPos0&12fpsAnimFrame02]<background>TitleMenus\FairyA.png,1,0,0,38,220,176
@@ -35154,6 +35159,13 @@
 <condition>HeroWalkFrame3b,spriteNearby,8,16,213,FF18362A
 <condition>HeroWalkFrame3c,spriteNearby,0,24,213,FF18362A
 <condition>HeroWalkFrame3d,spriteNearby,0,16,213,FF18362A
+#}
+#Pixie
+#{
+<tile>20,268,FF162730,8,8,1,N
+<tile>20,269,FF162730,8,16,1,N
+<tile>20,26A,FF162730,32,8,1,N
+<tile>20,26B,FF162730,32,16,1,N
 #}
 
 #SwordBeam (Kinda broken right now due to falbacktiles)
