@@ -3,7 +3,7 @@
 
 <patch>Revamp.ips,08fa60f23e477752fdd850b1fd4171c6ca025127
 <img>UI.png
-<img>Characters\NewSwordBeam.png
+<img>Characters\hero_SwordBeam.png
 <img>NPC\enemy_PillBug.png
 <img>NPC\enemy_Octopus.png
 <img>blank.png
@@ -24,6 +24,7 @@
 <img>Overworld\Sprites.png
 <img>NPC\friendly_Pixie.png
 <img>Characters\hero_Hurt.png
+<img>Characters\hero_Shield.png
 
 <options>disableSpriteLimit
 <options>disableOriginalTiles
