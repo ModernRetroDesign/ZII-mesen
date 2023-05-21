@@ -24,7 +24,7 @@
 <img>Overworld\Sprites.png
 <img>NPC\friendly_Pixie.png
 <img>Characters\hero_Hurt.png
-<img>Characters\hero_Shield.png
+<img>Characters\hero_Spell-Shield.png
 <img>Characters\hero_Ending.png
 
 <options>disableSpriteLimit
