@@ -2,13 +2,15 @@
 
 Coding: Giric
 
-Main Art: HaddianKey, Jojamart, Cristata
+Main Art: HaddianKey
+
+Music Patch: Kurrono
 
 Music: Niskala
 
-Tools: Lilo-san
+Tiled Tools: Lilo-san
 
-Additional work by: Evan.F, Aclectico, Szadi art., Max Deacon VR, Pepeztyle, ChaosMiles07, Jmanvelez, & Alexander Landgren
+Additional Art: Aclectico, Cristata, Jojamart, Evan.F, Szadi art., Max Deacon VR, Pepeztyle, ChaosMiles07, Jmanvelez, & Alexander Landgren
 
 Discord: https://discord.gg/feFCZMUQQm
 
