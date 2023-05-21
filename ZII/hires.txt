@@ -36443,18 +36443,22 @@
 [!hmirror&PlayerInAir&JumpAnimFrame01]<tile>7,24C,FF18362A,816,24,1,Y
 [!hmirror&PlayerInAir&JumpAnimFrame01]<tile>7,24D,FF18362A,816,32,1,Y
 #JumpFixes
-#[!hmirror&PlayerInAir]<tile>7,204,FF18362A,0,16,1,Y
-#[!hmirror&PlayerInAir]<tile>7,205,FF18362A,0,24,1,Y
-#[!hmirror&PlayerInAir]<tile>7,206,FF18362A,8,16,1,Y
-#[!hmirror&PlayerInAir]<tile>7,207,FF18362A,8,24,1,Y
-#[!hmirror&PlayerInAir]<tile>7,208,FF18362A,16,32,1,Y
-#[!hmirror&PlayerInAir]<tile>7,209,FF18362A,16,40,1,Y
-#[!hmirror&PlayerInAir]<tile>7,20A,FF18362A,24,32,1,Y
-#[!hmirror&PlayerInAir]<tile>7,20B,FF18362A,24,40,1,Y
-#[!hmirror&PlayerInAir]<tile>7,20C,FF18362A,16,48,1,Y
-#[!hmirror&PlayerInAir]<tile>7,20D,FF18362A,16,56,1,Y
-#[!hmirror&PlayerInAir]<tile>7,20E,FF18362A,24,48,1,Y
-#[!hmirror&PlayerInAir]<tile>7,20F,FF18362A,24,56,1,Y
+[!hmirror&PlayerInAir]<tile>7,204,FF18362A,776,24,1,Y
+[!hmirror&PlayerInAir]<tile>7,205,FF18362A,776,32,1,Y
+[!hmirror&PlayerInAir]<tile>7,206,FF18362A,784,24,1,Y
+[!hmirror&PlayerInAir]<tile>7,207,FF18362A,784,32,1,Y
+
+[!hmirror&PlayerInAir]<tile>7,208,FF18362A,776,8,1,Y
+[!hmirror&PlayerInAir]<tile>7,209,FF18362A,776,16,1,Y
+[!hmirror&PlayerInAir]<tile>7,20A,FF18362A,784,8,1,Y
+[!hmirror&PlayerInAir]<tile>7,20B,FF18362A,784,16,1,Y
+[!hmirror&PlayerInAir]<tile>7,20C,FF18362A,776,24,1,Y
+[!hmirror&PlayerInAir]<tile>7,20D,FF18362A,776,32,1,Y
+[!hmirror&PlayerInAir]<tile>7,20E,FF18362A,784,24,1,Y
+[!hmirror&PlayerInAir]<tile>7,20F,FF18362A,784,32,1,Y
+
+[!hmirror&PlayerInAir]<tile>7,226,FF18362A,776,24,1,Y
+[!hmirror&PlayerInAir]<tile>7,227,FF18362A,776,32,1,Y
 
 #JumpFalling
 [!hmirror&PlayerInAir&JumpAnimFrame00]<tile>7,200,FF18362A,848,8,1,Y
@@ -37642,18 +37646,22 @@
 [hmirror&PlayerInAir&JumpAnimFrame01]<tile>7,24D,FF18362A,816,80,1,Y
 
 #JumpFixes
-#[hmirror&PlayerInAir]<tile>7,204,FF18362A,0,16,1,Y
-#[hmirror&PlayerInAir]<tile>7,205,FF18362A,0,24,1,Y
-#[hmirror&PlayerInAir]<tile>7,206,FF18362A,8,16,1,Y
-#[hmirror&PlayerInAir]<tile>7,207,FF18362A,8,24,1,Y
-#[hmirror&PlayerInAir]<tile>7,208,FF18362A,16,56,1,Y
-#[hmirror&PlayerInAir]<tile>7,209,FF18362A,16,64,1,Y
-#[hmirror&PlayerInAir]<tile>7,20A,FF18362A,24,56,1,Y
-#[hmirror&PlayerInAir]<tile>7,20B,FF18362A,24,64,1,Y
-#[hmirror&PlayerInAir]<tile>7,20C,FF18362A,16,72,1,Y
-#[hmirror&PlayerInAir]<tile>7,20D,FF18362A,16,80,1,Y
-#[hmirror&PlayerInAir]<tile>7,20E,FF18362A,24,72,1,Y
-#[hmirror&PlayerInAir]<tile>7,20F,FF18362A,24,80,1,Y
+[hmirror&PlayerInAir]<tile>7,204,FF18362A,776,72,1,Y
+[hmirror&PlayerInAir]<tile>7,205,FF18362A,776,80,1,Y
+[hmirror&PlayerInAir]<tile>7,206,FF18362A,784,72,1,Y
+[hmirror&PlayerInAir]<tile>7,207,FF18362A,784,80,1,Y
+
+[hmirror&PlayerInAir]<tile>7,208,FF18362A,776,56,1,Y
+[hmirror&PlayerInAir]<tile>7,209,FF18362A,776,64,1,Y
+[hmirror&PlayerInAir]<tile>7,20A,FF18362A,784,56,1,Y
+[hmirror&PlayerInAir]<tile>7,20B,FF18362A,784,64,1,Y
+[hmirror&PlayerInAir]<tile>7,20C,FF18362A,776,72,1,Y
+[hmirror&PlayerInAir]<tile>7,20D,FF18362A,776,80,1,Y
+[hmirror&PlayerInAir]<tile>7,20E,FF18362A,784,72,1,Y
+[hmirror&PlayerInAir]<tile>7,20F,FF18362A,784,80,1,Y
+
+[hmirror&PlayerInAir]<tile>7,226,FF18362A,776,72,1,Y
+[hmirror&PlayerInAir]<tile>7,227,FF18362A,776,80,1,Y
 
 #JumpDown
 [hmirror&PlayerInAir&JumpAnimFrame00]<tile>7,200,FF18362A,848,56,1,Y
@@ -38379,35 +38387,29 @@
 
 
 #GetItem1
-<tile>7,370,FF18362A,248,0,1,Y
-<tile>7,371,FF18362A,248,8,1,Y
-<tile>7,372,FF18362A,256,0,1,Y
-<tile>7,373,FF18362A,256,8,1,Y
-<tile>7,374,FF18362A,248,16,1,Y
-<tile>7,375,FF18362A,248,24,1,Y
-<tile>7,376,FF18362A,256,16,1,Y
-<tile>7,377,FF18362A,256,24,1,Y
+<tile>7,270,FF18362A,248,0,1,Y
+<tile>7,271,FF18362A,248,8,1,Y
+<tile>7,272,FF18362A,256,0,1,Y
+<tile>7,273,FF18362A,256,8,1,Y
+<tile>7,274,FF18362A,248,16,1,Y
+<tile>7,275,FF18362A,248,24,1,Y
+<tile>7,276,FF18362A,256,16,1,Y
+<tile>7,277,FF18362A,256,24,1,Y
 
 #GetItem2
-<tile>7,380,FF18362A,264,0,1,Y
-<tile>7,381,FF18362A,264,8,1,Y
-<tile>7,382,FF18362A,272,0,1,Y
-<tile>7,383,FF18362A,272,8,1,Y
-<tile>7,3AC,FF18362A,264,16,1,Y
-<tile>7,3AD,FF18362A,264,24,1,Y
-<tile>7,3AE,FF18362A,272,16,1,Y
-<tile>7,3AF,FF18362A,272,24,1,Y
+<tile>7,280,FF18362A,264,0,1,Y
+<tile>7,281,FF18362A,264,8,1,Y
+<tile>7,282,FF18362A,272,0,1,Y
+<tile>7,283,FF18362A,272,8,1,Y
+<tile>7,2AC,FF18362A,264,16,1,Y
+<tile>7,2AD,FF18362A,264,24,1,Y
+<tile>7,2AE,FF18362A,272,16,1,Y
+<tile>7,2AF,FF18362A,272,24,1,Y
 
 #GetTriangle
 
 #KissPrincess
 
-
-#Fairy
-#<tile>7,268,FF162730,184,384,1,Y
-#<tile>7,269,FF162730,184,392,1,Y
-#<tile>7,26A,FF162730,192,384,1,Y
-#<tile>7,26B,FF162730,192,392,1,Y
 
 #Falling
 [hmirror]<tile>7,214,FF18362A,136,8,1,Y
@@ -38420,16 +38422,18 @@
 [hmirror]<tile>7,21B,FF18362A,144,32,1,Y
 
 #FallingShadow
-[hmirror]<tile>7,214,FF0F0F0F,528,488,1,Y
-[hmirror]<tile>7,215,FF0F0F0F,528,496,1,Y
-[hmirror]<tile>7,216,FF0F0F0F,536,488,1,Y
-[hmirror]<tile>7,217,FF0F0F0F,536,496,1,Y
-[hmirror]<tile>7,218,FF0F0F0F,528,504,1,Y
-[hmirror]<tile>7,219,FF0F0F0F,528,512,1,Y
-[hmirror]<tile>7,21A,FF0F0F0F,536,504,1,Y
-[hmirror]<tile>7,21B,FF0F0F0F,536,512,1,Y
+[hmirror]<tile>21,214,FF0F0F0F,136,8,1,Y
+[hmirror]<tile>21,215,FF0F0F0F,136,16,1,Y
+[hmirror]<tile>21,216,FF0F0F0F,144,8,1,Y
+[hmirror]<tile>21,217,FF0F0F0F,144,16,1,Y
+[hmirror]<tile>21,218,FF0F0F0F,136,24,1,Y
+[hmirror]<tile>21,219,FF0F0F0F,136,32,1,Y
+[hmirror]<tile>21,21A,FF0F0F0F,144,24,1,Y
+[hmirror]<tile>21,21B,FF0F0F0F,144,32,1,Y
 
 #}
+
+#MagicCastSpellLengthIs31Frames
 
 
 #RemovesBlackBarsFromWorldMap
