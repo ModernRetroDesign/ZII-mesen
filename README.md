@@ -10,7 +10,7 @@ Music: Niskala
 
 Tiled Tools: Lilo-san
 
-Additional Art: Aclectico, Cristata, Jojamart, Evan.F, Szadi art., Max Deacon VR, Pepeztyle, ChaosMiles07, Jmanvelez, & Alexander Landgren
+Additional Art: Aclectico, Cristata, Jojamart, Hexi_Eibhin04, Evan.F, Szadi art., Max Deacon VR, Pepeztyle, ChaosMiles07, Jmanvelez, & Alexander Landgren
 
 Discord: https://discord.gg/feFCZMUQQm
 
