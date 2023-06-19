@@ -16,7 +16,7 @@ Discord: https://discord.gg/feFCZMUQQm
 
 # Requres latest Mesen 2 development build!
 
-https://github.com/SourMesen/Mesen2
+[https://github.com/SourMesen/Mesen2](https://github.com/SourMesen/Mesen2#development-builds)
 
 Please be sure to use the latest development build and not release version as of now otherwise it will not work correctly!
 
