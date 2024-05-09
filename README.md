@@ -32,6 +32,8 @@ A 200% overclock is recommended but not necessary. Set 'Additional scanlines bef
 
 A 32 pixel overscan is required to be applied to the top otherwise you will have a giant black bar on the upper part of the screen!
 
+To use replacement music rename Revamp+Music.ips to Revamp.ips and place OGG files in the Music folder.
+
 # Important note
 
 Please remember this is a work in progress project, not everything will look as it should and bugs will be present. The git is updated frequently and changes may occur, adding and removing content and features day by day. If you can contribute art for backgrounds or characters, feel free to edit and submit to the discord. Thank you and enjoy!
