@@ -1,4 +1,5 @@
-Files must be named as follows
+*Please note that the music patch is currently unfinished!
+Files must be named as follows:
 
 battle.ogg
 boss.ogg
