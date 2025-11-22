@@ -1,8 +1,7 @@
 Corel Auto-Preserve
-*.pspimage
-Hacks
-temp
-*.ogg
 New Folder
-*.OLD
+temp
 *.ase
+*.pspimage
+*.ogg
+*.OLD
