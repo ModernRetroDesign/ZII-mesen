@@ -16,7 +16,7 @@
 <img>Characters/1-West/1-Cave/1C.png
 <img>Characters/1-West/1-Cave/1F.png
 
-<img>Characters/1-West/2-Temple/1-Desert/00.png 
+<img>Characters/1-West/2-Temple/1-Desert/00.png
 <img>Characters/1-West/2-Temple/1-Desert/04.png
 <img>Characters/1-West/2-Temple/1-Desert/06.png
 <img>Characters/1-West/2-Temple/1-Desert/0C.png
