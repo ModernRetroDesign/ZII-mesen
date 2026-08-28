@@ -32,8 +32,6 @@ Start Mesen and the game. Click on Tools -> HD Packs (NES) -> Install HD Pack. S
 
 A 200% overclock is recommended but not necessary. Set 'Additional scanlines before NMI' to 262. This option is located in Settings -> NES and on the top select Overclocking.
 
-The pack should automatically crop the top of the screen but if you experience strange stretching you may want to set overscan to 32 for the top. This is located in Settings -> NES and on the top select Video and scroll down to find it.
-
 To use replacement music rename Revamp+Music.ips to Revamp.ips and place OGG files in the Music folder. Please insure your songs loop about 3-4 times or are 10 minutes in length, longer for dungeons otherwise the music will stop after it hits the end of the file. This feature is currently incomplete and real looping does not work as of yet. Also be aware songs may not resume after picking up an item or leveling up.
 
 # Important note
