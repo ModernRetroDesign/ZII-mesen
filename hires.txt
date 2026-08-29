@@ -141,8 +141,8 @@
 #Draws behind level
 #7 - Background Object Layer
 #6 - Background Layer
-#2 - Sun & Moon
-#1 - Day & Night
+#2 - AreaName & Minimap
+#1 - Version (temp)
 
 <background>Version.png,1,0,0,1,0,0
 #<background>Safe_area_overlay.png,1,0,0,39,0,0
@@ -30757,26 +30757,33 @@
 
 #Town1
 #{
+#Name
+[LOCATION_06&MAP_01]<background>MiniMap/Town1.png,1,1,1,2,0,0
+[LOCATION_06&MAP_02]<background>MiniMap/Town1.png,1,1,1,2,0,0
+[LOCATION_06&MAP_1C]<background>MiniMap/Town1.png,1,1,1,2,0,0
+[LOCATION_06&MAP_24]<background>MiniMap/Town1.png,1,1,1,2,0,0
+[LOCATION_06&MAP_30]<background>MiniMap/Town1.png,1,1,1,2,0,0
+
 #Outside
 [LOCATION_06&MAP_01&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,0,0
 [LOCATION_06&MAP_01&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,0,0
-[LOCATION_06&MAP_01&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,0,720
+[LOCATION_06&MAP_01&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,0,480
 [LOCATION_06&MAP_01&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_02&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_02&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,1024,0
-[LOCATION_06&MAP_02&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_02&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_02&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/1.png,1,1,1,20,1536,0
 
 #GateOverlay
 [LOCATION_06&MAP_01&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,0,0
 [LOCATION_06&MAP_01&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,0,0
-[LOCATION_06&MAP_01&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,0,720
+[LOCATION_06&MAP_01&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,0,480
 [LOCATION_06&MAP_01&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,512,0
 
 [LOCATION_06&MAP_02&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,1024,0
 [LOCATION_06&MAP_02&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,1024,0
-[LOCATION_06&MAP_02&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,1024,720
+[LOCATION_06&MAP_02&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,1024,480
 [LOCATION_06&MAP_02&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/1_forground.png,1,1,1,31,1536,0
 
 #Inside
@@ -30792,15 +30799,22 @@
 
 #Town2
 #{
+#Name
+[LOCATION_06&MAP_04]<background>MiniMap/Town2.png,1,1,1,2,0,0
+[LOCATION_06&MAP_05]<background>MiniMap/Town2.png,1,1,1,2,0,0
+[LOCATION_06&MAP_1D]<background>MiniMap/Town2.png,1,1,1,2,0,0
+[LOCATION_06&MAP_25]<background>MiniMap/Town2.png,1,1,1,2,0,0
+[LOCATION_06&MAP_31]<background>MiniMap/Town2.png,1,1,1,2,0,0
+
 #Outside
 [LOCATION_06&MAP_04&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,0,0
 [LOCATION_06&MAP_04&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,0,0
-[LOCATION_06&MAP_04&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,0,720
+[LOCATION_06&MAP_04&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,0,480
 [LOCATION_06&MAP_04&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_05&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_05&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,1024,0
-[LOCATION_06&MAP_05&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_05&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_05&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/2.png,1,1,1,20,1536,0
 
 #Inside
@@ -30816,27 +30830,35 @@
 
 #Town3 (NeedsWorkWithRooms)
 #{
+#Name
+[LOCATION_06&MAP_06]<background>MiniMap/Town3.png,1,1,1,2,0,0
+[LOCATION_06&MAP_07]<background>MiniMap/Town3.png,1,1,1,2,0,0
+[LOCATION_06&MAP_08]<background>MiniMap/Town3.png,1,1,1,2,0,0
+[LOCATION_06&MAP_1E]<background>MiniMap/Town3.png,1,1,1,2,0,0
+[LOCATION_06&MAP_26]<background>MiniMap/Town3.png,1,1,1,2,0,0
+[LOCATION_06&MAP_32]<background>MiniMap/Town3.png,1,1,1,2,0,0
+
 #Outside
 [LOCATION_06&MAP_06&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,0
 [LOCATION_06&MAP_06&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,0
-[LOCATION_06&MAP_06&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,720
+[LOCATION_06&MAP_06&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,480
 [LOCATION_06&MAP_06&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_07&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_07&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,1024,0
 #problemwithcoords?
-[LOCATION_06&MAP_07&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_07&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_07&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,1536,0
 
 [LOCATION_06&MAP_08&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,2048,0
 [LOCATION_06&MAP_08&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,2048,0
-[LOCATION_06&MAP_08&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,2048,720
+[LOCATION_06&MAP_08&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,2048,480
 [LOCATION_06&MAP_08&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,2560,0
 
 #Inside
 [LOCATION_06&MAP_1E&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,240
 [LOCATION_06&MAP_1E&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,240
-[LOCATION_06&MAP_1E&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,720
+[LOCATION_06&MAP_1E&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,0,480
 [LOCATION_06&MAP_1E&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,512,240
 
 [LOCATION_06&MAP_26&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/3.png,1,1,1,20,1024,240
@@ -30848,20 +30870,31 @@
 
 #Town4
 #{
+#Name
+[LOCATION_06&MAP_09]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_0A]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_0B]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_18]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_1F]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_27]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_2C]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_33]<background>MiniMap/Town4.png,1,1,1,2,0,0
+[LOCATION_06&MAP_38]<background>MiniMap/Town4.png,1,1,1,2,0,0
+
 #Outside
 [LOCATION_06&MAP_09&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,0,0
 [LOCATION_06&MAP_09&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,0,0
-[LOCATION_06&MAP_09&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,0,720
+[LOCATION_06&MAP_09&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,0,480
 [LOCATION_06&MAP_09&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_0A&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_0A&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,1024,0
-[LOCATION_06&MAP_0A&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_0A&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_0A&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,1536,0
 
 [LOCATION_06&MAP_0B&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,2048,0
 [LOCATION_06&MAP_0B&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,2048,0
-[LOCATION_06&MAP_0B&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,2048,720
+[LOCATION_06&MAP_0B&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,2048,480
 [LOCATION_06&MAP_0B&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/4.png,1,1,1,20,2560,0
 
 #ForestHouse
@@ -30888,20 +30921,28 @@
 
 #Town5
 #{
+#Name
+[LOCATION_06&MAP_0C]<background>MiniMap/Town5.png,1,1,1,2,0,0
+[LOCATION_06&MAP_0D]<background>MiniMap/Town5.png,1,1,1,2,0,0
+[LOCATION_06&MAP_0E]<background>MiniMap/Town5.png,1,1,1,2,0,0
+[LOCATION_06&MAP_20]<background>MiniMap/Town5.png,1,1,1,2,0,0
+[LOCATION_06&MAP_28]<background>MiniMap/Town5.png,1,1,1,2,0,0
+[LOCATION_06&MAP_34]<background>MiniMap/Town5.png,1,1,1,2,0,0
+
 #Outside
 [LOCATION_06&MAP_0C&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,0,0
 [LOCATION_06&MAP_0C&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,0,0
-[LOCATION_06&MAP_0C&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,0,720
+[LOCATION_06&MAP_0C&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,0,480
 [LOCATION_06&MAP_0C&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_0D&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_0D&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,1024,0
-[LOCATION_06&MAP_0D&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_0D&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_0D&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,1536,0
 
 [LOCATION_06&MAP_0E&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,2048,0
 [LOCATION_06&MAP_0E&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,2048,0
-[LOCATION_06&MAP_0E&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,2048,720
+[LOCATION_06&MAP_0E&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,2048,480
 [LOCATION_06&MAP_0E&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/5.png,1,1,1,20,2560,0
 
 #Inside
@@ -30917,20 +30958,30 @@
 
 #Town6
 #{
+#Name
+[LOCATION_06&MAP_0F]<background>MiniMap/Town6.png,1,1,1,2,0,0
+[LOCATION_06&MAP_10]<background>MiniMap/Town6.png,1,1,1,2,0,0
+[LOCATION_06&MAP_11]<background>MiniMap/Town6.png,1,1,1,2,0,0
+[LOCATION_06&MAP_21]<background>MiniMap/Town6.png,1,1,1,2,0,0
+[LOCATION_06&MAP_29]<background>MiniMap/Town6.png,1,1,1,2,0,0
+[LOCATION_06&MAP_2D]<background>MiniMap/Town6.png,1,1,1,2,0,0
+[LOCATION_06&MAP_35]<background>MiniMap/Town6.png,1,1,1,2,0,0
+[LOCATION_06&MAP_39]<background>MiniMap/Town6.png,1,1,1,2,0,0
+
 #Outside
 [LOCATION_06&MAP_0F&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,0,0
 [LOCATION_06&MAP_0F&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,0,0
-[LOCATION_06&MAP_0F&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,0,720
+[LOCATION_06&MAP_0F&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,0,480
 [LOCATION_06&MAP_0F&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_10&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_10&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,1024,0
-[LOCATION_06&MAP_10&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_10&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_10&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,1536,0
 
 [LOCATION_06&MAP_11&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,2048,0
 [LOCATION_06&MAP_11&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,2048,0
-[LOCATION_06&MAP_11&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,2048,720
+[LOCATION_06&MAP_11&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,2048,480
 [LOCATION_06&MAP_11&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/6.png,1,1,1,20,2560,0
 
 #Inside
@@ -30953,21 +31004,31 @@
 
 #Town7 (NeedsMerge)
 #{
+#Name
+[LOCATION_06&MAP_12]<background>MiniMap/Town7.png,1,1,1,2,0,0
+[LOCATION_06&MAP_13]<background>MiniMap/Town7.png,1,1,1,2,0,0
+[LOCATION_06&MAP_14]<background>MiniMap/Town7.png,1,1,1,2,0,0
+[LOCATION_06&MAP_1A]<background>MiniMap/Town7.png,1,1,1,2,0,0
+[LOCATION_06&MAP_2A]<background>MiniMap/Town7.png,1,1,1,2,0,0
+[LOCATION_06&MAP_2E]<background>MiniMap/Town7.png,1,1,1,2,0,0
+[LOCATION_06&MAP_2F]<background>MiniMap/Town7.png,1,1,1,2,0,0
+[LOCATION_06&MAP_3A]<background>MiniMap/Town7.png,1,1,1,2,0,0
+
 #Outside
 [LOCATION_06&MAP_12&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,0,0
 [LOCATION_06&MAP_12&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,0,0
-[LOCATION_06&MAP_12&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,0,720
+[LOCATION_06&MAP_12&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,0,480
 [LOCATION_06&MAP_12&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_13&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_13&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,1024,0
-[LOCATION_06&MAP_13&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_13&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_13&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,1536,0
 
 #(ThisMapNeedsSpecialCodingForMovingBuilding)
 [LOCATION_06&MAP_14&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,2048,0
 [LOCATION_06&MAP_14&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,2048,0
-[LOCATION_06&MAP_14&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,2048,720
+[LOCATION_06&MAP_14&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,2048,480
 [LOCATION_06&MAP_14&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/7.png,1,1,1,20,2560,0
 
 #Inside
@@ -30999,25 +31060,33 @@
 
 #Town8 (NeedsWorkWithRooms)
 #{
+#Name
+[LOCATION_06&MAP_15]<background>MiniMap/Town8.png,1,1,1,2,0,0
+[LOCATION_06&MAP_16]<background>MiniMap/Town8.png,1,1,1,2,0,0
+[LOCATION_06&MAP_17]<background>MiniMap/Town8.png,1,1,1,2,0,0
+[LOCATION_06&MAP_23]<background>MiniMap/Town8.png,1,1,1,2,0,0
+[LOCATION_06&MAP_2B]<background>MiniMap/Town8.png,1,1,1,2,0,0
+[LOCATION_06&MAP_37]<background>MiniMap/Town8.png,1,1,1,2,0,0
+
 [LOCATION_06&MAP_15&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,0
 [LOCATION_06&MAP_15&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,0
-[LOCATION_06&MAP_15&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,720
+[LOCATION_06&MAP_15&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,480
 [LOCATION_06&MAP_15&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,512,0
 
 [LOCATION_06&MAP_16&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,1024,0
 [LOCATION_06&MAP_16&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,1024,0
-[LOCATION_06&MAP_16&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,1024,720
+[LOCATION_06&MAP_16&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,1024,480
 [LOCATION_06&MAP_16&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,1536,0
 
 [LOCATION_06&MAP_17&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,2048,0
 [LOCATION_06&MAP_17&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,2048,0
-[LOCATION_06&MAP_17&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,2048,720
+[LOCATION_06&MAP_17&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,2048,480
 [LOCATION_06&MAP_17&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,2560,0
 
 #StrangeGlitchWhenLeavingHouse
 [LOCATION_06&MAP_23&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,240
 [LOCATION_06&MAP_23&!MAP_SLICE_0&MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,240
-[LOCATION_06&MAP_23&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,720
+[LOCATION_06&MAP_23&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,0,480
 [LOCATION_06&MAP_23&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,512,240
 
 [LOCATION_06&MAP_2B&MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Town/8.png,1,1,1,20,1024,240
@@ -31794,12 +31863,12 @@
 [LOCATION_02&!SubZone&MAP_26&HUD&!MAP_SLICE_0&!MAP_SLICE_1&MAP_SLICE_2&!MAP_SLICE_3]<background>Levels/Grassland/02-26.png,1,1,1,20,0,240
 [LOCATION_02&!SubZone&MAP_26&HUD&!MAP_SLICE_0&!MAP_SLICE_1&!MAP_SLICE_2&MAP_SLICE_3]<background>Levels/Grassland/02-26.png,1,1,1,20,512,0
 
-[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_background0.png,1,1,2,10,0,0
-[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_background1.png,1,0.4,1,11,0,0
-[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_background2.png,1,0.7,1,12,0,0
-[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_objects.png,1,0.9,1,13,0,0
+#[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_background0.png,1,1,2,10,0,0
+#[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_background1.png,1,0.4,1,11,0,0
+#[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_background2.png,1,0.7,1,12,0,0
+#[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_objects.png,1,0.9,1,13,0,0
 [LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27.png,1,1,1,20,0,0
-[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_foreground.png,1,1.1,1,30,0,0
+#[LOCATION_02&!SubZone&MAP_27&HUD]<background>Levels/Forest/02-27_foreground.png,1,1.1,1,30,0,0
 
 #[LOCATION_02&!SubZone&MAP_28&HUD]<background>Levels/Forest/02-28_background.png,1,0.6,1,6,0,0
 [LOCATION_02&!SubZone&MAP_28&HUD]<background>Levels/Forest/02-28.png,1,1,1,20,0,0
@@ -31882,11 +31951,11 @@
 #[LOCATION_02&!SubZone&MAP_2F&HUD]<background>Levels/Swamp/02-2F_background.png,1,0.6,1,6,0,0
 [LOCATION_02&!SubZone&MAP_2F&HUD]<background>Levels/Swamp/02-2F.png,1,1,1,20,0,0
 
-[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_background.png,1,0.6,1,6,0,0
-[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_mud.png,1,1,1,7,0,0,Subtract
-[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_background-objects.png,1,1,1,8,0,0
+#[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_background.png,1,0.6,1,6,0,0
+#[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_mud.png,1,1,1,7,0,0,Subtract
+#[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_background-objects.png,1,1,1,8,0,0
 [LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30.png,1,1,1,20,0,0
-[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_mud.png,1,1,1,30,0,0,Alpha
+#[LOCATION_02&!SubZone&MAP_30&HUD]<background>Levels/Swamp/02-30_mud.png,1,1,1,30,0,0,Alpha
 #Rain
 [LOCATION_02&!SubZone&MAP_30&HUD&60fpsAnimFrame00]<background>Weather/Rain000.png,1,0,0,31
 [LOCATION_02&!SubZone&MAP_30&HUD&60fpsAnimFrame01]<background>Weather/Rain000.png,1,0,0,31
